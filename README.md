@@ -1,5 +1,5 @@
 ## Face Recognition App
-####  This is a face recognition app that authenticates the user using face recognition and then displays the user's details.
+#####  This is a face recognition app that authenticates the user using face recognition and then displays the user's details.
 
 ## Demo Link
 If you have a working demo of the project, provide the link so that readers can see your project in action.
@@ -8,7 +8,6 @@ If you have a working demo of the project, provide the link so that readers can 
 
 - [Libraries Used](#libraries-used)
 - [Setup](#setup)
-- [features](#features)
 - [Project Status](#project-status)
 - [Contact](#contact)
 
@@ -19,16 +18,20 @@ If you have a working demo of the project, provide the link so that readers can 
 
 ## Setup
 
-- Clone the repository and install the required libraries using pip install -r requirements.txt
-- Run the app.py file using streamlit run app.py
-
-## Features
-
-- Face Recognition
-- Face Detection
-- Face Authentication
-- Face Identification
-
+- Clone the repository and install the required libraries using `pip3 install -r requirements.txt`
+- Create a folder of known faces and add the images of the people you want to recognize.
+- In face_encoding.py file, change the path of the known faces folder.
+```diff
+-- folder_path = r"D:\face-recognition\face-recognition\known_faces"
+++ folder_path = r"your path"
+```
+- Run the face_encoding.py file using `python face_encoding.py`. This will create a pickle file of the known faces containing their encodings.
+- In App.py file, change the path of the pickle file.
+```diff
+-- with open(r"D:\face-recognition\face-recognition\known_faces_encodings.pkl", "rb") as f:
+++ with open(r"your path", "rb") as f:
+```
+- Run the app.py file using `streamlit run app.py`
 
 ## Project Status 
 
