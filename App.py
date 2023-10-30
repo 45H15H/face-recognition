@@ -30,7 +30,7 @@ def authenticate():
         st.image(frame, caption="Your Picture", width = 300)
         video_capture.release()
 
-    # load the known faces and embeddings saved
+    # load the known faces saved
     with open(r"D:\face-recognition\face-recognition\known_faces_encodings.pkl", "rb") as f:
         known_faces = pickle.load(f)
 
