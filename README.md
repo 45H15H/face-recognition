@@ -20,18 +20,18 @@ If you have a working demo of the project, provide the link so that readers can 
 
 - Clone the repository and install the required libraries using `pip3 install -r requirements.txt`
 - Create a folder of known faces and add the images of the people you want to recognize.
-- In face_encoding.py file, change the path of the known faces folder.
+- In *face_encoding.py* file, change the path of the known faces folder.
 ```diff
 -- folder_path = r"D:\face-recognition\face-recognition\known_faces"
 ++ folder_path = r"your path"
 ```
-- Run the face_encoding.py file using `python face_encoding.py`. This will create a pickle file of the known faces containing their encodings.
-- In App.py file, change the path of the pickle file.
+- Run the *face_encoding.py* file using `python face_encoding.py`. This will create a pickle file of the known faces containing their encodings.
+- In *App.py* file, change the path of the pickle file.
 ```diff
 -- with open(r"D:\face-recognition\face-recognition\known_faces_encodings.pkl", "rb") as f:
 ++ with open(r"your path", "rb") as f:
 ```
-- Run the app.py file using `streamlit run app.py`
+- Run the *App.py* file using `streamlit run App.py`
 
 ## Project Status 
 
