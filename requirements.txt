@@ -13,7 +13,7 @@ colorama==0.4.6
 contourpy==1.1.1
 cycler==0.12.1
 deepface==0.0.79
-dlib==19.24.99
+dlib==19.24.2
 face-recognition==1.3.0
 face-recognition-models==0.3.0
 filelock==3.13.0
