@@ -23,13 +23,13 @@
 - In *face_encoding.py* file, change the path of the known faces folder.
 ```diff
 -- folder_path = r"D:\face-recognition\face-recognition\known_faces"
-++ folder_path = r"your path"
+++ folder_path = r"<path>"
 ```
 - Run the *face_encoding.py* file using `python face_encoding.py`. This will create a pickle file of the known faces containing their encodings.
 - In *App.py* file, change the path of the pickle file.
 ```diff
 -- with open(r"D:\face-recognition\face-recognition\known_faces_encodings.pkl", "rb") as f:
-++ with open(r"your path", "rb") as f:
+++ with open(r"<path>", "rb") as f:
 ```
 - Run the *App.py* file using `streamlit run App.py`
 
