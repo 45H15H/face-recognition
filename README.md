@@ -1,8 +1,8 @@
 ## Face Recognition App
 #####  This is a face recognition app that authenticates the user using face recognition and then displays the user's details.
 
-## Demo Link
-If you have a working demo of the project, provide the link so that readers can see your project in action.
+<!-- ## Demo Link -->
+<!-- If you have a working demo of the project, provide the link so that readers can see your project in action. -->
 
 ## Table of Contents
 
