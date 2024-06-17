@@ -40,11 +40,7 @@
 
 ## Note
 
-It recognizes only three faces till now:
-
-1. PSX_Ashish
-2. Arin
-3. Ronak
+Add your own pictures in known_faces folder. 
 
 ## Project Status
 
