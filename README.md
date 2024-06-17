@@ -38,9 +38,8 @@
 
 - Run the *App.py* file using `streamlit run App.py`
 
-## Note
-
-Add your own pictures in known_faces folder. 
+> [!IMPORTANT]  
+> Add your own pictures in known_faces folder. 
 
 ## Project Status
 
